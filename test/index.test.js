@@ -17,7 +17,7 @@ test('send a graphql query', function (t) {
     query: cursorQuery
   }, (err, result) => {
     t.error(err)
-    t.ok(result.result.data)
+    t.ok(result.data)
     t.end()
     client.close()
   })

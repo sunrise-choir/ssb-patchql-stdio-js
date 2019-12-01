@@ -71,7 +71,11 @@ module.exports = function CreateClient (opts) {
   const client = new ClientStdio()
 
   function query ({ query, variables }, cb) {
-    client.request('query', { query, variables }, cb)
+    client.request('query', { query, variables }, (err, data) => {
+      if(err) return cb(err)
+      if(data.error) return cb(data.error)
+      cb(null, data.result)
+    })
   }
   function close () {
     patchql.kill()
