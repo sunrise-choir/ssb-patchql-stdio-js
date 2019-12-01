@@ -1,4 +1,4 @@
-# patchql-over-stdio-example
+#ssb-patchql-stdio-js
 
 > Talk to patchql over stdio via json-rpc. It's like native bindings but easier.
 
@@ -6,7 +6,7 @@
 ## Usage
 
 ```js
-const CreatePatchql = require('patchql-over-stdio-example')
+const CreatePatchql = require('ssb-patchql-stdio-js')
 const patchql = CreatePatchql() //TODO opts
 
 // Our graphql query
@@ -25,7 +25,7 @@ with an empty db it will log something like:
 ## API
 
 ```js
-var CreatePatchql = require('patchql-over-stdio-example')
+var CreatePatchql = require('ssb-patchql-stdio-js')
 const patchql = CreatePatchql() //TODO opts
 ```
 
@@ -36,12 +36,12 @@ See [api_formatting.md](api_formatting.md) for tips.
 With [npm](https://npmjs.org/) installed, run
 
 ```
-$ npm install patchql-over-stdio-example
+$ npm install ssb-patchql-stdio-js
 ```
 
 ## Acknowledgments
 
-patchql-over-stdio-example was inspired by..
+ssb-patchql-stdio-js was inspired by..
 
 ## See Also
 

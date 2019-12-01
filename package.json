@@ -1,5 +1,5 @@
 {
-  "name": "patchql-over-stdio-example",
+  "name": "ssb-patchql-stdio-js",
   "version": "1.0.0",
   "ssbPatchqlVersion": "v0.2.3",
   "description": "Talk to patchql over stdio via json-rpc. It's like native bindings but easier.",
