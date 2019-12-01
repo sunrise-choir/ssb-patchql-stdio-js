@@ -1,0 +1,29 @@
+{
+  "name": "patchql-over-stdio-example",
+  "version": "1.0.0",
+  "ssbPatchqlVersion": "v0.2.3",
+  "description": "Talk to patchql over stdio via json-rpc. It's like native bindings but easier.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js",
+    "postinstall": "node scripts/download.js"
+  },
+  "author": "pietgeursen@gmail.com",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "env-paths": "^2.2.0",
+    "gunzip-maybe": "^1.4.1",
+    "jayson": "^3.2.0",
+    "mkdirp": "^0.5.1",
+    "pull-ndjson": "^0.2.0",
+    "pull-pushable": "^2.2.0",
+    "pull-stream": "^3.6.14",
+    "pull-write-file": "^0.2.4",
+    "request": "^2.88.0",
+    "stream-to-pull-stream": "^1.7.3",
+    "tape": "^4.11.0",
+    "tar-fs": "^2.0.0",
+    "unzip": "^0.1.11",
+    "util": "^0.12.1"
+  }
+}
