@@ -50,5 +50,5 @@ ssb-patchql-stdio-js was inspired by..
 
 ## License
 
-AGPL-3.0
+LGPL-3.0
 

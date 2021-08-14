@@ -9,7 +9,7 @@
     "postinstall": "node scripts/download.js"
   },
   "author": "pietgeursen@gmail.com",
-  "license": "AGPL-3.0",
+  "license": "LGPL-3.0",
   "dependencies": {
     "env-paths": "^2.2.0",
     "gunzip-maybe": "^1.4.1",
